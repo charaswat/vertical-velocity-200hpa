@@ -123,7 +123,7 @@ windyInit(options, windyAPI => {
         btn.innerText = 'Start Analyzer';
 		alert("Analysis Complete");
 	};
-	// วางโค้ดนี้ในเลเยอร์บรรยากาศ (900, 850, 500, 200 hPa)
+		// วางโค้ดนี้ในเลเยอร์บรรยากาศ (900, 850, 500, 200 hPa)
 	window.addEventListener('message', function(event) {
 		// รับข้อมูลพิกัดจาก Dashboard หลัก
 		if (event.data.type === 'MAP_SYNC') {
