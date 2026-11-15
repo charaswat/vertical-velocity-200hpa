@@ -94,7 +94,7 @@ windyInit(options, windyAPI => {
     });
 
     // 3. การตั้งค่าเลเยอร์เริ่มต้น
-    store.set('overlay', 'vvel');
+    store.set('overlay', 'wind');
     store.set('level', '200h');
     store.set('particlesAnim', 'slow');
 
